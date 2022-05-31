@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #5fa2ff;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.Logo{
+    text-decoration: none;
+    Color: #edf2f4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.Navigation a{
+    Color: #edf2f4;
+    text-decoration: none;
+    font-size: 1.0em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.Navigation a:hover{
+    color: #8d99ae;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.Main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(Images/Untitled-1.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Main h2{
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.Main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #5fa2ff;
+    font-size: 3em;
+    font-weight: 600;
+    border-radius: 15px;
+
+}
+
+.Main h3{
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn{
+    color: #fff;
+    background-color: #5fa2ff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.5s ease;
+}
+
+.main-btn:hover{
+    background-color: #124ea1;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.5em;
+    padding-right: 20px;
+}
+
+.Title{
+    display: flex;
+    justify-content: center;
+    color: #5fa2ff;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.Content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 20px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+}
+
+.Card:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.icon{
+    color: #5fa2ff;
+    font-size: 6em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color: #5fa2ff;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.Projects{
+    background-color: #2f333a;
+}
+
+.Projects .Content{
+    margin: 30px;
+}
+
+.project-card{
+    background-color: #edf2f4;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.5s ease;
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+
+.project-Image img{
+    width: 100%;
+}
+
+.project-card:hover .project-Image{
+    opacity: 0.8;
+}
+
+.project-info{
+    padding: 1em;
+}
+
+.project-category{
+    font-size: 0.8em;
+    color: #000;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details{
+    text-decoration: none;
+    color: #3a6cf4;
+}
+
+.more-details:hover{
+    color: #601cfc;
+}
+
+.cards-contact .icon{
+    font-size: 2em;
+}
+
+.cards-contact .info .h3{
+    color: #000;
+}
+
+.cards-contact .info .p{
+    font-size: 3.5em;
+}
+
+.footer{
+    background-color: #000016;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.footer-title span{
+    color: #3a6cf4;
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}
+
+@media (max-width: 1023px){
+    header{
+        padding: 10px 20px;
+    }
+
+    .Navigation a{
+        padding-left: 10px;
+    }
+
+    .Title{
+        font-size: 1.8em;
+    }
+
+    Section{
+        padding: 80px 20px;
+    }
+
+    .Main h2{
+        font-size: 1em;
+    }
+
+    .Main h3{
+        font-size: 0.8em;
+    }
+
+    .Content{
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .Projects .Content{
+        flex-direction: column;
+        align-items: center;
+    } 
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .Main h2{
+        font-size: 0.8em;
+    }
+
+    .Main h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 7px;
+    }
+
+    .Projects .Title{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    Section{
+        padding: 40px 10px;
+    }
+
+    .Title{
+        font-size: 1.8em;
+    }
+}
